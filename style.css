@@ -190,8 +190,9 @@ nav{
   animation: typing 5s infinite;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 24px; /* increased font size to match h4 */
+  color: #007bff; /* blue color */
   text-transform: capitalize;
-  color: var(--text-color-third);
 }
 
 @keyframes typing {
@@ -199,48 +200,27 @@ nav{
     width: 0;
   }
   10% {
-    width: 1ch;
-  }
-  20% {
-    width: 2ch;
+    width: 10ch;
+    content: "Photographer";
   }
   30% {
-    width: 3ch;
-  }
-  40% {
-    width: 4ch;
+    width: 20ch;
+    content: "Photographer Developer";
   }
   50% {
-    width: 5ch;
-  }
-  60% {
-    width: 6ch;
+    width: 30ch;
+    content: "Photographer Developer Graphic Designer";
   }
   70% {
-    width: 7ch;
-  }
-  80% {
-    width: 8ch;
-  }
-  90% {
-    width: 9ch;
+    width: 40ch;
+    content: "Photographer Developer Graphic Designer";
   }
   100% {
-    width: 10ch;
+    width: 40ch;
+    content: "Photographer Developer Graphic Designer";
   }
 }
 
-.typed-text:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.typed-text:nth-child(2) {
-  animation-delay: 5s;
-}
-
-.typed-text:nth-child(3) {
-  animation-delay: 10s;
-}
 
 .featured-text-info{
     font-size: 15px;
