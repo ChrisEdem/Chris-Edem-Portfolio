@@ -186,7 +186,7 @@ nav{
     color: var(--text-color-second);
     margin-block: 20px;
 }
-.typed-text {
+.typedText {
   animation: typing 5s infinite;
   overflow: hidden;
   white-space: nowrap;
@@ -205,19 +205,19 @@ nav{
   }
   30% {
     width: 20ch;
-    content: "Photographer Developer";
+    content: "Developer";
   }
   50% {
     width: 30ch;
-    content: "Photographer Developer Graphic Designer";
+    content: "Graphic Designer";
   }
   70% {
     width: 40ch;
-    content: "Photographer Developer Graphic Designer";
+    content: "Photographer";
   }
   100% {
     width: 40ch;
-    content: "Photographer Developer Graphic Designer";
+    content: "Photographer";
   }
 }
 
